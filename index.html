@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Signup Form</title>
+    <link rel="stylesheet" href="bstyle.css">
+    <!--BOOTSRAP LINK-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+</head>
+<body>
+    <form method="post" action="http://localhost:9000/addDetails">
+
+        <div class="signup-form bg-dark">
+
+            <div class="Signup-head bg-warning">
+                <h1>Reserve Your Ticket</h1>
+            </div>
+
+            <div class="signup-content">
+                <input type="radio" class="radio" value="One Way" name="type">
+                <label class="text-white">One Way</label>
+                <input type="radio" class="radio" value="Return" name="type">
+                <label class="text-white">Return</label>
+            </div>
+            <div class="signup-content2">
+                <input type="text" placeholder="From" name="from" class="input bg-dark">
+                <input type="text" placeholder="To" class="input bg-dark"><br>
+           
+
+            <label class="text-white" style="margin-left:10px;">Depart</label>
+            <input type="date" class="tarikh bg-dark" name="depart">
+            <label class="text-white" style="margin-left:10px;">Return</label>
+            <input type="date" class="tarikh bg-dark" name="return">
+
+            <input type="number" class="bg-dark person" name="noOfAdults" placeholder="Adults">
+            <input type="number" class="bg-dark person" name="noOfChild" placeholder="Children"><br>
+
+            <label class="text-white travel">Travel Class</label>
+            <select name="tier" class="bg-dark text-white travel2">
+                <option></option>
+                <option value="firstClass">First Class/1A</option>
+                <option value="AC 2tier/2A">AC 2tier/2A</option>
+                <option value="AC 3tier/3A">AC 3tier/3A</option>
+                <option value="Executive class chair car/Economy Class">Executive class chair car/Economy Class</option>
+                <option value="AC Chair Car">AC Chair Car</option>
+                <option value="Sleeper Class">Sleeper Class</option>
+                <option value="Second Class">Second Class</option>
+                <option value="General">General</option>
+            </select>
+
+            <input type="submit" value="Check Availability" class="submit-btn bg-warning">
+            <input type="submit" value="Update" class="submit-btn bg-warning">
+           
+        </div>    
+        </div>
+    </form>
+</body>
+</html>

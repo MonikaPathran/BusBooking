@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bus Monitoring System</title>
+  <link rel ="stylesheet" type="text/css" href="bstyles.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+  <style>
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap");
+</style>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-black" id="navbar">
+        <nav class="navbar navbar-light bg-light">
+            <span class="navbar-brand mb-0 h1">BUS MONITORING SYSTEM</span>
+          </nav>
+        <button class="navbar-toggler" type="button"
+        data-bs-toggle="collapse" data-bs-target="#menu">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+        </button>
+        <div class="collapse navbar-collapse" id="menu">
+            <ul class="navbar-nav ms-auto mb-lg-0 ">
+                <li class="nav-item">
+                    <a style=color:#ECEDF1  class="nav-link" href="https://themeforest.net/search/transportation">HOME</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="https://uxdesign.cc/transportation-problem-ui-ux-case-study-d9e98984a902">SOLUTIONS</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="https://www.statista.com/statistics/606597/production-volume-bus-coach-india/">PRODUCTS</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="https://www.yatra.com/bus-operators-india/">SERVICES</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="https://www.indiamart.com/proddetail/bus-body-building-material-22436707097.html">MATERIALS</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="https://www.aiib.org/en/projects/details/2022/approved/India-GreenCell-Electric-Bus-Financing-Project.html">PROJECTS</a>
+                </li>
+                <li class="nav-item">
+                    <a style=color:#ECEDF1 class="nav-link" href="index.html">BOOKING</a>
+                </li>
+                <li class="nav-item">
+                    <form class="form-inline my-2 my-lg-0">
+                        <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                      </form>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    </div></br>
+    <nav>
+</button>
+</nav>
+
+<main>
+<div class="intro">
+  <h1>BUS MONITORING SYSTEM</h1>
+
+  <p>This website is used for booking the bus as well as it track the bus location .</p>
+  <button ><a href="https://www.mapsofindia.com/bus-schedule/">Learn More</a></button>
+
+</div>
+<div>
+  <section id="portfolio" class="pt-5 bg-dark">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                          <div class="about-me">
+                            <div class="about-me-text">
+                              <h2>WHAT WE DO!!</h2>
+                              <p>Communication is key to any healthy relationship. 
+                                Your bus have a lot to say and they need a good listener. 
+                                The data is already being collected from your fleet; 
+                                all you need is to start the conversation. <br>
+                                That is where we come in. Using our industry-leading technology and our
+                                 full portfolio of capabilities and services, we deliver a complete suite of bus electronics and 
+                                 software solutions in rail-robust packages that meet your fleet’s unique requirements.<br>
+                                  No more guessing. No more bus and error. Let us get your bus talking!</p>
+                            </div>
+                            <img src="data:image/jpeg;base64,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" alt="me">
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+</div>
+<section id="portfolio" class="pt-5 bg-info">
+    <div class="container">
+        <div class="row text-center g-4">
+            <div class="col-md">
+                <div class="card-body text-center">
+
+<div class="achievements">
+  <div class="work">
+    <i class="fas fa-atom"></i>
+    <p class="work-heading">WHO ARE WE</p>
+    <p class="work-text">company that has served international markets for more than 30 years with an innovative range of products and services. Our first market was acoustic seabed classification, involving capture and analysis of raw seabed data on international coast guard and navy vessels. We eventually parlayed this expertise into train management systems in the early 1990s. We are now a leading manufacturer, supplier, and integrator of train electronics and software solutions for the passenger rail and locomotive industries in North America.
+
+      </p>
+  </div>
+  <div class="work">
+    <i class="fas fa-skiing"></i>
+    <p class="work-heading">ABOUT</p>
+    <p class="work-text">We offer flexible, modular, scalable electronic products to rail vehicle manufacturers and transit authorities that enable the efficient movement of people and goods. Each onboard and wayside product we design, manufacture, and support helps our customers increase operational efficiency, improve fleet availability, optimize on-time performance, and enhance passenger safety and comfort. We have successfully delivered a broad spectrum of projects on time and on budget in North America, Korea, China, and Malaysia.
+
+      </p>
+  </div>
+  <div class="work">
+    <i class="fas fa-ethernet"></i>
+    <p class="work-heading">HOW WE DO IT</p>
+    <p class="work-text">A trusted partner of the world’s major bus manufacturers and transit authorities. We have a history of successful innovation closely aligned with the growing needs of our customers and the industry. Our products are reliable, adaptable, responsive, and efficient within stringent rail industry requirements and have the unique benefits of current consumer technology and a modern look and feel.
+
+      </p>
+  </div>
+</div>
+<div>
+<img src="https://tse1.mm.bing.net/th?id=OIP.OixmvnEVVXugKGij63_hvQHaE8&pid=Api&P=0" alt="me">
+</div>
+</main>
+</section>
+
+<!-- <section id="portfolio" class="pt-5 bg-dark">
+<div class="container">
+  <div class="row text-center g-4">
+      <div class="col-md">
+          <div class="card-body text-center">
+            <h1 class="large grey">WHAT WE PROMISE</h1>
+            <br></div> -->
+<section id="portfolio" class="pt-5 bg-light">
+<div class="container desc">
+<div class="title-wrapper">
+  <div class="card-body text-center">
+  <h2 class="large grey">WHAT WE PROMISE</h2><br><br>
+</div>
+
+</div>
+
+<div class="container showlist">
+
+    
+<div class="row list-item">
+  <div class="col-sm-2">
+    <img src="https://www.questertangent.com/wp-content/uploads/2015/08/Total-TrainLife-Care-icon.png">
+  </div>
+  <div class="col-sm-10">
+    <div class="post-content">
+      <h4 class="sub-title">Total BusLife Care</h4>
+      <p>We stand behind our products for the bus’s service lifecycle. Our Total BusLife Care commitment maximizes the useful life of our products, supports fleet readiness, reduces the total cost of ownership, and meets bus industry longevity needs.</p>
+<p>This translates into:</p>
+<ul>
+<li><strong>20-year service guarantee.</strong> We promise 20 years of service continuity for our products.</li>
+<li><strong>Proactive approach to obsolescence management.</strong> We provide our customers with annual End-Of-Life (EOL) reports to proactively identify and resolve issues with our in-service products.</li>
+<li><strong>Midlife renewal support.</strong> We deliver products that adapt to the form, fit, and function needs of overhaul and retrofit projects.</li>
+</ul>
+    </div>
+  </div>
+</div>
+
+    
+<div class="row list-item">
+  <div class="col-sm-2">
+    <img src="https://www.questertangent.com/wp-content/uploads/2015/08/Flex-Solution-Prov-icon.png">
+  </div>
+  <div class="col-sm-10">
+    <div class="post-content">
+      <h4 class="sub-title">Flexible solutions</h4>
+      <p>As your one-stop shop for bus electronics, Quester Tangent is an expert at solving business problems from early bid support to fleet compatibility and system integration. Today, our products are known for their superior reliability that draws on our service-proven designs and new technology integration. Our onboard and wayside turnkey solutions integrate in-depth engineering expertise, manufacturing capacity, and revenue-service track record.</p>
+    </div>
+  </div>
+</div>
+
+    
+<div class="row list-item">
+  <div class="col-sm-2">
+    <img src="https://www.questertangent.com/wp-content/uploads/2015/08/Operational-Exc-icon.png">
+  </div>
+  <div class="col-sm-10">
+    <div class="post-content">
+    <h4 class="sub-title">Operational excellence</h4>
+    <p>We have more than 20 years of successful experience in designing modular engineered solutions, building flexible products, delivering fully customized train communication network solutions, creating detailed project documentation, and managing a broad spectrum of rail projects on time and on budget. Our state-of-the-art facilities and coordinated processes allow our engineering, manufacturing, and project management teams to deliver efficiently while adhering to the highest standards.</p>
+  </div>
+</div>
+</div>
+</div>
+
+</div>
+</section>
+
+
+<div class="container-fluid d-flex justify-content-center">
+<div class="row mt-5">
+<div class="col-sm-4">
+<div class="card">
+<img src="data:image/jpeg;base64,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" class="card-img-top" width="100%">
+
+<div class="card-body pt-0 px-0">
+
+
+<div class="d-flex flex-row justify-content-between px-3 pb-4">
+  <div class="d-flex flex-column"><span class="text-muted">Fuel Efficiency</span><small class="text-muted">L/100KM&ast;</small></div>
+  <div class="d-flex flex-column"><h5 class="mb-0">8.5/7.1</h5><small class="text-muted text-right">(city/Hwy)</small></div>
+</div>
+<div class="d-flex flex-row justify-content-between p-3 mid">
+  <div class="d-flex flex-column"><small class="text-muted mb-1">ENGINE</small><div class="d-flex flex-row"><img src="https://imgur.com/iPtsG7I.png" width="35px" height="25px"><div class="d-flex flex-column ml-1"><small class="ghj">1.4L MultiAir</small><small class="ghj">16V I-4 Turbo</small></div></div></div>
+  <div class="d-flex flex-column"><small class="text-muted mb-2">HORSEPOWER</small><div class="d-flex flex-row"><img src="https://imgur.com/J11mEBq.png"><h6 class="ml-1">135 hp&ast;</h6></div></div>
+</div>
+<small class="text-muted key pl-3">Standard key Features</small>
+<div class="mx-3 mt-3 mb-2"><button type="button" class="btn btn-danger btn-block"><small>VIEW DETAILS</small></button></div>
+<small class="d-flex justify-content-center text-muted">*Legal Disclaimer</small>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card">
+<img src="data:image/jpeg;base64,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" class="card-img-top" width="100%">
+
+<div class="card-body pt-0 px-0">
+
+
+<div class="d-flex flex-row justify-content-between px-3 pb-4">
+  <div class="d-flex flex-column"><span class="text-muted">Fuel Efficiency</span><small class="text-muted">L/100KM&ast;</small></div>
+  <div class="d-flex flex-column"><h5 class="mb-0">8.5/7.1</h5><small class="text-muted text-right">(city/Hwy)</small></div>
+</div>
+<div class="d-flex flex-row justify-content-between p-3 mid">
+  <div class="d-flex flex-column"><small class="text-muted mb-1">ENGINE</small><div class="d-flex flex-row"><img src="https://imgur.com/iPtsG7I.png" width="35px" height="25px"><div class="d-flex flex-column ml-1"><small class="ghj">1.4L MultiAir</small><small class="ghj">16V I-4 Turbo</small></div></div></div>
+  <div class="d-flex flex-column"><small class="text-muted mb-2">HORSEPOWER</small><div class="d-flex flex-row"><img src="https://imgur.com/J11mEBq.png"><h6 class="ml-1">135 hp&ast;</h6></div></div>
+</div>
+<small class="text-muted key pl-3">Standard key Features</small>
+<div class="mx-3 mt-3 mb-2"><button type="button" class="btn btn-danger btn-block"><small>VIEW DETAILS</small></button></div>
+<small class="d-flex justify-content-center text-muted">*Legal Disclaimer</small>
+</div>
+</div>
+</div>
+<div class="col-sm-4">
+<div class="card">
+<img src="data:image/jpeg;base64,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" width="100%">
+
+<div class="card-body pt-0 px-0">
+
+
+<div class="d-flex flex-row justify-content-between px-3 pb-4">
+  <div class="d-flex flex-column"><span class="text-muted">Fuel Efficiency</span><small class="text-muted">L/100KM&ast;</small></div>
+  <div class="d-flex flex-column"><h5 class="mb-0">8.5/7.1</h5><small class="text-muted text-right">(city/Hwy)</small></div>
+</div>
+<div class="d-flex flex-row justify-content-between p-3 mid">
+  <div class="d-flex flex-column"><small class="text-muted mb-1">ENGINE</small><div class="d-flex flex-row"><img src="https://imgur.com/iPtsG7I.png" width="35px" height="25px"><div class="d-flex flex-column ml-1"><small class="ghj">1.4L MultiAir</small><small class="ghj">16V I-4 Turbo</small></div></div></div>
+  <div class="d-flex flex-column"><small class="text-muted mb-2">HORSEPOWER</small><div class="d-flex flex-row"><img src="https://imgur.com/J11mEBq.png"><h6 class="ml-1">135 hp&ast;</h6></div></div>
+</div><
+<small class="text-muted key pl-3">Standard key Features</small>
+<div class="mx-3 mt-3 mb-2"><button type="button" class="btn btn-danger btn-block"><small>VIEW DETAILS</small></button></div>
+<small class="d-flex justify-content-center text-muted">*Legal Disclaimer</small>
+</div>
+</div>
+</div>
+
+</div>
+</div>
+<br><br>
+<section id="portfolio" class="pt-5 bg-warning">
+<div class="container">
+<div class="row text-center g-4">
+    <div class="col-md">
+                  <div class="about-me">
+                    
+<table class="table">
+<thead>
+<tr>
+<td><h3 style="color:white;font-size: 30px">There are 505 busway stations in Tamil Nadu. The 5 main Tamil Nadu railway stations are ...</h3>
+<ul>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/bihar-stations/">Bihar</a></li>
+    <li style="color:whitesmoke"><a>Bihar - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/uttarakhand-stations/">Uttarakhand</a></li>
+    <li style="color:whitesmoke"><a>Uttarakhand - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/telangana-stations/">Telangana</a></li>
+    <li style="color:whitesmoke"><a>Telangana - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/himachal-pradesh-stations/">Himachal Pradesh</a></li>
+    <li style="color:whitesmoke"><a>Himachal Pradesh - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/assam-stations/">Assam</a></li>
+    <li style="color:whitesmoke"><a>Assam - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/maharashtra-stations/">Maharashtra</a></li>
+    <li style="color:whitesmoke"><a>Maharashtra - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/punjab-stations/">Punjab</a></li>
+    <li style="color:whitesmoke"><a>Punjab - Tamil Nadu busway Stations | List of busway...</a></li>
+    <li style="color:grey"><a href="https://www.prokerala.com/travel/indian-railway/manipur-stations/">Manipur</a>
+    <li style="color:whitesmoke"><a>Manipur - Tamil Nadu busway Stations | List of busway...</a></li>
+    </li><br>
+    <li> <img src="https://files.prokerala.com/maps/india/map-files/india-railway.jpg" width="150px" height="150"></li>
+  </ul>
+</td>
+</tr>
+</thead>
+</table>
+</section>
+
+<form id=frmBusBetweenStation method=post action="/travel/indian-busway/search.php" target=_top>
+<div class=row>
+<div class="form-group col-tablet-4 col-phablet-6">
+<div class=controls>
+<input type=text name=origin id=txtSrcStation class="form-control ac-station" data-suggest="{&quot;url&quot;:&quot;\/travel\/indian-busway\/search.json?mode=stations&amp;query=&quot;,&quot;template&quot;:&quot;tpl-station-search&quot;,&quot;station_code&quot;:&quot;&quot;,&quot;id&quot;:&quot;station_origin&quot;}" placeholder="Source Station" value=""> <label for=fin_origin class=form-label>From</label>
+<label for=fin_origin class=clear-button tabindex=0>&#x2715;</label>
+<button type=button class="btn btn-reverse-route"><i class="icon icon-exchange">&ZeroWidthSpace;</i></button>
+<input type=hidden id=station_origin_pathname name=station_origin_pathname value="">
+</div>
+</div>
+<div class="form-group col-tablet-4 col-phablet-6">
+<div class=controls>
+<input type=text name=destination id=txtDestStation class="form-control ac-station" data-suggest="{&quot;url&quot;:&quot;\/travel\/indian-busway\/search.json?mode=stations&amp;query=&quot;,&quot;template&quot;:&quot;tpl-station-search&quot;,&quot;station_code&quot;:&quot;&quot;,&quot;id&quot;:&quot;station_destination&quot;}" placeholder="Destination Station" value=""> <label for=input-field class=form-label>To</label>
+<label for=fin_origin class=clear-button tabindex=0>&#x2715;</label>
+<input type=hidden id=station_destination_pathname name=station_destination_pathname value="">
+</div>
+</div>
+<div class="form-group col-tablet-3 col-phablet-12">
+<input type=hidden name=mode value=trains_between_stations>
+<button class="btn btn-theme btn-submit"><span>Find buss</span></a><i class="icon icon-arrow-right">&nbsp;</i></button>
+</div>
+</div>
+</form>
+<p class="text-subtle i t-xs m-0">Enter station name / station code to find buss between stations</p>
+</div>
+<div role=tabpanel class="tab-pane mb-0 " id=search-trains>
+<form id=frmSearchTrain method=get action="/travel/indian-railway/search.php" target=_top>
+<div class=row>
+<div class="form-group col-phablet-8">
+<div class=controls>
+<input type=text name=query id=txtTrain class="form-control " data-suggest="{&quot;url&quot;:&quot;\/travel\/indian-railway\/search.json?mode=trains&amp;query=&quot;,&quot;template&quot;:&quot;tpl-train-search&quot;}" placeholder="Enter train name / number" value=""> <label for=input-field class=form-label>Train Name / Number</label>
+<label for=fin_origin class=clear-button tabindex=0>&#x2715;</label>
+</div>
+</div>
+<div class="form-group col-phablet-4">
+<button class="btn btn-theme btn-submit" type=submit><span>Get Bus Details</span><i class="icon icon-arrow-right">&nbsp;</i></button>
+</div>
+</div>
+<input type=hidden name=mode value=trains>
+</form>
+<p class="text-subtle i t-xs m-0">Enter bus name / bus number for bus details</p>
+</div>
+<div role=tabpanel class="tab-pane mb-0 " id=search-stations>
+<form method=get action="/travel/indian-railway/search.php" target=_top>
+<div class=row>
+<div class="form-group col-phablet-8">
+<div class=controls>
+<input type=text name=station_query id=txtSrcStation2 class="form-control " data-suggest="{&quot;url&quot;:&quot;\/travel\/indian-railway\/search.json?mode=stations&amp;query=&quot;,&quot;template&quot;:&quot;tpl-station-search&quot;,&quot;station_code&quot;:&quot;&quot;,&quot;id&quot;:&quot;station&quot;}" placeholder="Station Name / Code" value=""> <label for=input-field class=form-label>Station Name / Code</label>
+<label for=fin_origin class=clear-button tabindex=0>&#x2715;</label>
+<input type=hidden id=station_pathname name=station_pathname value="">
+</div>
+</div>
+<div class="form-group col-phablet-4">
+<button class="btn btn-theme btn-submit" type=submit><span>Get Station Details</span><i class="icon icon-arrow-right">&nbsp;</i></button>
+</div>
+</div>
+<input type=hidden name=mode value=stations>
+</form>
+</div>
+
+<footer class=footer>
+<nav class="nav-content-footer theme-border" id=footer>
+<div class=container>
+<div class="wdgt-base wdgt wdgt-menu footer-section-links scroller"><ul class="wdgt-menu-list nav holder"><li><a href="/travel/">Travel</a></li><li><a href="/travel/flight-time/">Flight Time Calculator</a></li><li><a href="/travel/jetlag.php">Jet Lag</a></li><li><a href="/travel/distance/">Distance Calculator</a></li><li><a href="/travel/timezones/">World Clock</a></li><li><a href="/travel/airports/">Airports</a></li><li><a href="/maps/india/">India Maps</a></li><li><a href="/travel/indian-railway/">Train Timings</a></li></ul></div>
+</div>
+</nav>
+<nav class=container>
+<div class="footer-nav-wrapper grid-col grid-col-xs-12 grid-col-sm-6 grid-col-md-4">
+</div>
+</nav>
+<div class=footer-main-container>
+<div class=follow-us-networks-wrapper>
+<div class=follow-us-network-items>
+<span class=t-large>Follow us on</span>
+<div class=social-media-profiles>
+<a rel=me href="https://www.pinterest.com/prokerala"><i aria-hidden=true class="icon icon-fw icon-pinterest pinterest">&#8203;</i></a>
+<a rel=me href="https://www.facebook.com/Prokerala"><i aria-hidden=true class="icon icon-fw icon-facebook facebook">&#8203;</i></a>
+<a rel=me href="https://twitter.com/Prokerala"><i aria-hidden=true class="icon icon-fw icon-twitter twitter">&#8203;</i></a>
+<a rel=me href="https://www.youtube.com/c/Prokerala"><i aria-hidden=true class="icon icon-fw icon-youtube-play youtube">&#8203;</i></a>
+</div>
+</div>
+</div>
+<div class="footer-link-wrapper clearfix">
+<ul class=nav>
+<li><a href="">M</a></li>
+<li><a href="/downloads/ringtones/">Ringtones</a></li>
+<li><a href="/entertainment/love-meter/">Love Calculator</a></li>
+<li><a href="/kids/baby-gender/chinese-gender-predictor.php">Gender Prediction</a></li>
+</ul>
+<ul class=nav>
+<li><a href="/astrology/">Astrology</a></li>
+<li><a href="/kids/baby-names/">Baby Names</a></li>
+<li><a href="/astrology/horoscope/">Daily Horoscope</a></li>
+<li><a href="/news/finance/currency.php">Currency Converter</a></li>
+</ul>
+</div>
+<div class="contact-us t-sm">
+<div>
+<div class=contact-wrapper>
+<span>Bus monitering Technologies Pvt.Ltd. <br> <span class=address-block>Tamil Nadu, India</span></span>
+</div>
+<div class=contact-wrapper>
+<span class=t-large>Call us : <a >1800 425 0053</a>,<br><a > +91 9876543210</a></span>
+<span>Mon to Fri - 10 AM to 5 PM</span>
+</div>
+</div>
+</div>
+</div>
+<span class=clearfix>&#8203;</span>
+<div class="f-sans-serif clear-fix">
+<div class="footer-container tc">
+<span class="copyright t-small">&copy; 2005-23 Bus monitering Technologies Pvt. Ltd.</span>
+<nav class="footer-links tc t-large">
+<span class=footer-link >Privacy</span>
+<span class=footer-link >TOS</span>
+<span class=footer-link >Disclaimer</span>
+<span class=footer-link >Cookies</span>
+<a class=footer-link >Contact</a>
+</nav>
+</div>
+</div>
+</footer>
+</body>
+
+</html>

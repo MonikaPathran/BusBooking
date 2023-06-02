@@ -1,0 +1,266 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
+  /* CSS for header */
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+  }
+  
+  .header .logo {
+    font-size: 25px;
+    font-family: "Sriracha", cursive;
+    color: #000;
+    text-decoration: none;
+    margin-left: 30px;
+  }
+  
+  .nav-items {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: silver;
+    margin-right: 20px;
+  }
+  
+  .nav-items a {
+    text-decoration: none;
+    color: #000;
+    padding: 35px 20px;
+  }
+  
+  /* CSS for main element */
+  .intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 1000px;
+    background: linear-gradient(to bottom, rgba(143, 126, 18, 0.5) 0%, rgba(0, 0, 0, 0.5) 100%);
+    background-image:url("https://media.istockphoto.com/id/614316294/photo/white-bus-driving-along-the-asphalt-road-at-sunset.jpg?s=612x612&w=0&k=20&c=u8GEy0RJSqL-VQGC2ERacrEo3LXc62O5VPopKTt38Sc=");
+   background-attachment: fixed;
+  background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  
+  .intro h1 {
+    font-family: sans-serif;
+    font-size: 65px;
+    color: #f8ec0b;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  
+  .intro p {
+    font-size: 30px;
+    color: #d1d1d1;
+    text-transform: uppercase;
+    margin: 20px 0;
+  }
+  
+  .intro button {
+    background-color: #5edaf0;
+    color: #000;
+    padding: 10px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.4)
+  }
+  
+  .achievements {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 80px;
+  }
+  
+  .achievements .work {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .achievements .work i {
+    width: fit-content;
+    font-size: 50px;
+    color: #050505;
+    border-radius: 50%;
+    border: 2px solid #0c0c0c;
+    padding: 12px;
+  }
+  
+  .achievements .work .work-heading {
+    font-size: 30px;
+    color: #0e0e0e;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .achievements .work .work-text {
+    font-size:20px;
+    color: #0c0c0c;
+    margin: 10px 0;
+  }
+  
+  .about-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 80px;
+    border-top: 2px solid #eeeeee;
+  }
+  
+  .about-me img {
+    width: 600px;
+    max-width: auto;
+    height: auto;
+    border-radius: 10px;
+  }
+  
+  .about-me-text h2 {
+    font-size: 60px;
+    color: #f3efef;
+    text-transform: uppercase;
+    margin: 0;
+  }
+  /* .post-content p{
+    font-size: 25px;
+    color: #fefcfc;
+    margin: 10px 0;
+  
+  }
+  .sub-title h4{
+    font-size: 60px;
+    color: #f3efef;
+    text-transform: uppercase;
+    margin: 0;
+  } */
+  
+  .about-me-text p {
+    font-size: 25px;
+    color: #fefcfc;
+    margin: 10px 0;
+  }
+  
+  /* CSS for footer */
+  .footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #302f49;
+    padding: 40px 80px;
+  }
+  
+  .footer .copy {
+    color: #fff;
+  }
+  
+  .bottom-links {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 40px 0;
+  }
+  
+  .bottom-links .links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 0 40px;
+  }
+  
+  .bottom-links .links span {
+    font-size: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    margin: 10px 0;
+  }
+  
+  .bottom-links .links a {
+    text-decoration: none;
+    color: #a1a1a1;
+    padding: 10px 20px;
+  }
+  /*css for nav bar*/
+  
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+  body{
+    background: #F5F1EE;
+    font-family: 'Roboto', sans-serif;
+  }
+  .card{
+    width: 250px;
+    border-radius: 10px;
+  }
+  
+  .card-img-top{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+  }
+  span.text-muted{
+    font-size: 12px;
+  }
+  small.text-muted{
+    font-size: 8px;
+  }
+  h5.mb-0{
+    font-size: 1rem;
+  }
+  small.ghj{
+    font-size: 9px;
+  }
+  .mid{
+    background: #ECEDF1;
+  }
+  h6.ml-1{
+    font-size: 13px;
+  }
+  small.key{
+    text-decoration: underline;
+    font-size: 9px;
+    cursor: pointer;
+  }
+  .btn-danger{
+    color: #FFCBD2;
+  }
+  .btn-danger:focus{
+    box-shadow: none;
+  }
+  small.justify-content-center{
+    font-size: 9px;
+    cursor: pointer;
+    text-decoration: underline;
+  }
+  .table{
+      background-color: black;
+      text-decoration-color: white;
+      font-size: 25px;
+  }
+  .nav-item{
+    text-decoration-color: white;
+      font-size: 25px;
+  }
+  
+  @media screen and (max-width:600px){
+      .col-sm-4{
+          margin-bottom: 50px;
+      }
+  }
+  
+  .footer {
+      background: #ece9e9;
+      clear: both;
+  }
